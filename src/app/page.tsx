@@ -1,12 +1,12 @@
 import { MetadataRoute } from 'next/server';
-import { Hero } from '../../components/organisms/Hero/Hero';
-import { Features } from '../../components/organisms/Features/Features';
-import { Team } from '../../components/organisms/Team/Team';
-import { Pricing } from '../../components/organisms/Pricing/Pricing';
-import { Cta } from '../../components/organisms/Cta/Cta';
-import { Footer } from '../../components/organisms/Footer/Footer';
-import { Header } from '../../components/organisms/Header/Header';
-import { LogoCloud } from '../../components/organisms/LogoCloud/LogoCloud';
+import { Hero } from '../engines/Hero/Hero';
+import { Features } from '../engines/Features/Features';
+import { Team } from '../engines/Team/Team';
+import { Pricing } from '../engines/Pricing/Pricing';
+import { Cta } from '../engines/Cta/Cta';
+import { Footer } from '../engines/Footer/Footer';
+import { Header } from '../engines/Header/Header';
+import { LogoCloud } from '../engines/LogoCloud/LogoCloud';
 
 
 export default function Home() {
